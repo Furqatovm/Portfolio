@@ -11,7 +11,6 @@ body{
     margin-top: 0;
 }
 .header{
-    position: sticky;
     margin-left: 80px;
     margin-right: 80px;
     font-size: 14px;
@@ -32,6 +31,7 @@ body{
     margin-left: auto;
 }
 a{
+    font-size: larger;
     color: white;
     opacity: 30%;
     text-decoration: none;
@@ -103,6 +103,7 @@ h1{
     justify-content: space-between;
     margin-top: 20px;
     padding-bottom: 30px;
+    gap: 20px;
 }
 .center-header{
     color: #080808;
@@ -127,6 +128,7 @@ h1{
 }
 .second-wrapper{
     background-color: white;
+    margin-bottom: 50px;
 }
 .fintech{
     color: orange;
@@ -168,9 +170,154 @@ h1{
     width: 440px;
     padding-left: 30px;
 }
+.third-wrapper{
+    padding-bottom: 40px;
+    background-color: #080808;
+}
+.header-span{
+    color: white;
+    opacity: 60%;
+    line-height: 1.6;
+}
+.header-section{
+    text-align: center;
+    padding-top: 60px;
+}
+.header-section-h{
+    padding-bottom: 10px;
+}
+.wrapper-child{
+    color: white;
+    opacity: 60%;
+}
+.third{
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 20px 30px;
+    border: 1px solid lightgray;
+}
+.client-name{
+    color: white;
+    font-size: 20px;
+}
+.clients{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.clent{
+    padding-right: 15px;
+}
+.wrapper-me{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.wrapper-4{
+    padding-top: 40px;
+}
+.forth-wrapper{
+    background-color: white;
+    padding-bottom: 40px;
+}
+.for-header{
+    text-align: center;
+}
+.header-4{
+    margin-bottom: 15px;
+    color: #080808;
+}
+.problems{
+    line-height: 1.6;
+    font-size: 18px;
+    opacity: 60%;
+}
+.childs{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.worl{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.lorem{
+    font-size: 18px;
+    opacity: 60%;
 
+}
+footer{
+    background-color: #080808;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+.footer-header{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.header-footer{
+    padding-bottom: 20px;
+}
+form{
+    text-align: center;
+    padding-bottom: 40px;
 
+}
+#email{
+    padding: 20px 80px;
+    border-radius: 10px;
+    color: blue;
+}
+#mobile{
+    padding: 20px 80px;
+    border-radius: 10px;
+    color: blue;
+   
+}
 
+.email{
+    margin-top: 20px;
+}
+.mobile, .message, .email{
+    margin-top: 20px;
+    
+}
+#message{
+    padding: 40px 80px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: blue;
+
+}
+#submit{
+    background-color: #3F8E00;
+    padding: 10px 137px;
+    margin-top: 10px;
+    font-size: larger;
+}
+.footer{
+    font-size: larger;
+}
+.footer-span{
+    opacity: 60%;
+}
+#submit{
+    color: white;
+    border-radius: 10px;
+}
+.link{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    color: red;
+}
+.linkim{
+    color: yellow;
+    opacity: 100%;
+    text-shadow: #3F8E00;
+}
 
 
 
